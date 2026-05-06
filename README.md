@@ -1,11 +1,20 @@
-I've built GastroCity, a sophisticated global food guide featuring an AI-powered chatbot to help you discover the world's best food junctions.
-Key Features:
-GastroGuide Chatbot: A persistent AI culinary expert powered by Gemini 3 Flash. It greets you warmly and asks which cities you're interested in, providing tailored suggestions for hidden gems and iconic eateries.
-Curated City Guides: Immersive cards for culinary capitals like Tokyo, Paris, Bangkok, and New York, complete with top-rated junctions (e.g., Ichiran Ramen, Jay Fai, Katz's Deli).
-Luxury Aesthetic: A refined dark-mode design inspired by high-end travel journals, utilizing Inter for clean readability and Playfair Display for elegant headings.
-Fluid Experience: Smooth animations using Framer Motion for a premium feel, and a fully responsive layout that works across all devices.
-Implementation Details:
-Frontend: React 19 with Vite and Tailwind CSS.
-AI Integration: Custom Gemini service using the @google/genai SDK for real-time conversation.
-State Management: React hooks for chat history and interactive UI states.
-Visuals: High-quality lifestyle images from Unsplash to evoke a sense of travel and appetite.
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
+
+# Run and deploy your AI Studio app
+
+This contains everything you need to run your app locally.
+
+View your app in AI Studio: https://ai.studio/apps/367dd653-9fea-4d67-a78b-95563e4f26f0
+
+## Run Locally
+
+**Prerequisites:**  Node.js
+
+
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
